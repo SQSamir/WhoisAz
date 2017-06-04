@@ -6,6 +6,7 @@
 """
 import sys
 import requests
+import re
 from bs4 import BeautifulSoup
 header= {"Accept-Encoding": "gzip, deflate","Accept-Language": "en-US,en;q=0.5" ,"Content-Length": "7", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" ,"Referer": "http://whois.az/cgi-bin/whois.cgi","Content-Type": "application/x-www-form-urlencoded", "Host": "whois.az", "User-Agent": "MMozilla/5.0 "}
 son=""
