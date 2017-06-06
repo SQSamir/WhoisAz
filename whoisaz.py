@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8- -*-
 """
+__author__ = "SQS"
 .az domainlərin üçün Whois
- autor: SQS
+
 """
 import sys
 import requests
